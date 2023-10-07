@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400&family=Raleway:ital,wght@0,400;0,700;1,400&display=swap');
+@font-face {
+    font-family:"Raleway", serif;
+    src: url(../assets/documents/police/Raleway-Italic-VariableFont_wght.ttf), url(../assets/documents/police/Raleway-Italic-VariableFont_wght.ttf);
+
+}
+
+
+#header {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    align-items: center;
+    background-color: #782221;
+    padding: 30px 0px;
+    text-align: center;
+    width: 1160px;
+}
+
+#img-profil {
+    height: 150px;
+    width: 150px;
+    border-radius: 100px;
+    box-shadow:  0px 0px 6px white, 0px 0px 6px white;
+    object-fit: cover;
+}
+
+#img-profil:hover {
+    cursor: zoom-in;
+}
+
+h1 {
+    color: white;
+    text-transform: uppercase;
+    font-family: "Lato", sans-serif;
+}
+
+h2 {
+    color: white;
+}
+
+/* La largeur du CV est réduite pour laisser la place à la marge intérieur afin d'avoir un total de 1160px */
+address {
+    display: flex;
+    width: 1080px;
+    margin: auto;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 40px 10px 40px;
+    background-color: #2c1d27;
+    
+}
+
+#text-email {
+    display: flex;
+    padding-right: 80px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+p {
+    font-family: "Raleway", serif;
+}
