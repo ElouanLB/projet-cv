@@ -1,10 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400&family=Raleway:ital,wght@0,400;0,700;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;0,900;1,400&display=swap');
 @font-face {
     font-family:"Raleway", serif;
     src: url(../assets/documents/police/Raleway-Italic-VariableFont_wght.ttf), url(../assets/documents/police/Raleway-Italic-VariableFont_wght.ttf);
 
 }
-
 
 #header {
     display: flex;
@@ -67,4 +66,53 @@ a:hover {
 
 p {
     font-family: "Raleway", serif;
+}
+
+main {
+    display: flex;
+    width: 1160px;
+    margin: auto;
+
+}
+
+.container-1 {
+    background-color: #782221;
+    width: 30%;
+    height: 100%;
+}
+
+.container-1 h3 {
+    padding-left: 30px;
+}
+
+.container-1 p {
+    font-family: "Raleway", sans-serif;
+    color: white;
+    text-indent: 25px;
+    text-align: justify;
+    padding: 0 0 0 20px;
+    width: 75%;
+    font-size: 0.9em;
+}
+
+.container-2 {
+    width: 70%
+}
+
+.container-2 h3 {
+    margin: 20px 25px;
+    border-left: 10px solid #782221;
+}
+
+h3 {
+    background-color: #dbc2a4;
+    width: 75%;
+    padding: 5px 0px ;
+    font-family: "Lato", sans-serif;
+    font-weight: 900;
+}
+
+ul {
+    font-family: "Raleway",sans-serif;
+    color: white;
 }
