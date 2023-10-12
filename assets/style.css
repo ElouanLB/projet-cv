@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;0,900;1,400&display=swap');
 @font-face {
-    font-family:"Raleway", serif;
-    src: url(../assets/documents/police/Raleway-Italic-VariableFont_wght.ttf), url(../assets/documents/police/Raleway-Italic-VariableFont_wght.ttf);
+    font-family:"Raleway";
+    src: url(./police/Raleway-VariableFont_wght.ttf);
 
 }
 
@@ -36,6 +36,7 @@ h1 {
 
 h2 {
     color: white;
+    font-family: "Lato", sans-serif;
 }
 
 /* La largeur du CV est réduite pour laisser la place à la marge intérieur afin d'avoir un total de 1160px */
@@ -65,7 +66,7 @@ a:hover {
 }
 
 p {
-    font-family: "Raleway", serif;
+    font-family:"Raleway", serif;
 }
 
 main {
@@ -75,10 +76,22 @@ main {
 
 }
 
+h3 {
+    background-color: #dbc2a4;
+    width: 75%;
+    padding: 5px 0px ;
+    font-family: "Lato", sans-serif;
+    font-weight: 900;
+}
+
 .container-1 {
     background-color: #782221;
     width: 30%;
-    height: 100%;
+}
+
+.container-1 li {
+    font-family: "Raleway",sans-serif;
+    color: white;
 }
 
 .container-1 h3 {
@@ -90,6 +103,7 @@ main {
     color: white;
     text-indent: 25px;
     text-align: justify;
+    word-spacing: -2px;
     padding: 0 0 0 20px;
     width: 75%;
     font-size: 0.9em;
