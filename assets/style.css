@@ -148,3 +148,35 @@ li {
 .ul-border:hover {
     border-right: 2px solid #782221;
 }
+
+.icon {
+    display: flex;
+    width: 1160px;
+    margin: auto;
+    justify-content: center;
+    padding: 25px 0;
+    background-color: #782221;
+}
+.icone {
+    width: 50px;
+    height: 50px;
+    padding: 0 10px;
+}
+
+.icone:hover {
+    opacity: 75%;
+}
+
+.maj {
+    display: flex;
+    width: 1160px;
+    margin: auto;
+    justify-content: center;
+    background-color: #782221;
+    padding-bottom: 10px;
+}
+
+.maj p {
+    color: white;
+    font-family: "Raleway", sans-serif;
+}
