@@ -132,3 +132,19 @@ h4 {
 li {
     font-family: "Raleway",sans-serif;
 }
+
+.div-border {
+    width: 500px;
+}
+
+.div-border:hover {
+    border-right: 2px solid #782221;
+}
+
+.ul-border {
+    width: 500px;
+}
+
+.ul-border:hover {
+    border-right: 2px solid #782221;
+}
