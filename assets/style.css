@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;0,900;1,400&display=swap');
 @font-face {
     font-family:"Raleway";
-    src: url(./police/Raleway-VariableFont_wght.ttf);
+    src: url(./documents/fonts/Raleway-Italic-VariableFont_wght.ttf) url(./documents/fonts/Raleway-VariableFont_wght.ttf);
 
 }
 
