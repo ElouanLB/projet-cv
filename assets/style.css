@@ -5,7 +5,7 @@
 
 }
 
-#header {
+.header-1 {
     display: flex;
     flex-direction: column;
     margin: auto;
@@ -16,7 +16,7 @@
     width: 1160px;
 }
 
-#img-profil {
+.img-profil {
     height: 150px;
     width: 150px;
     border-radius: 100px;
@@ -24,7 +24,7 @@
     object-fit: cover;
 }
 
-#img-profil:hover {
+.img-profil:hover {
     cursor: zoom-in;
 }
 
@@ -51,7 +51,7 @@ address {
     
 }
 
-#text-email {
+.text-email {
     display: flex;
     padding-right: 80px;
 }
@@ -90,7 +90,7 @@ h3 {
 }
 
 .container-1 li {
-    font-family: "Raleway",sans-serif;
+    font-family: "Lato",sans-serif;
     color: white;
 }
 
@@ -99,7 +99,6 @@ h3 {
 }
 
 .container-1 p {
-    font-family: "Raleway", sans-serif;
     color: white;
     text-indent: 25px;
     text-align: justify;
@@ -124,13 +123,14 @@ h3 {
     font-family: "Lato", sans-serif;
 }
 
+.container-2 li {
+    font-family: "Lato", sans-serif;
+    font-size: 1rem;
+}
+
 h4 {
     font-family: "Lato", sans-serif;
     font-weight: 700;
-}
-
-li {
-    font-family: "Raleway",sans-serif;
 }
 
 .div-border {
